@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Logo from './img/UNO Logo.svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className='nav_content'>
+          <div className='navbar'>
+            <a className='link active' href='#'>Booking</a>
+            <a className='link' href='#'>Services</a>
+            <img className='logo' src={Logo}></img>
+            <a className='link' href='#'>Policy</a>
+            <a className='link' href='#'>Contact</a>
+          </div>
+        </div>
+        <a className='book_link' href='#'>Book Now</a>
       </header>
+
     </div>
   );
 }
