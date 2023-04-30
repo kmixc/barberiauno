@@ -223,6 +223,8 @@ header .nav-btn {
   transform: scale(1.05);
   background-color: #000;
   color: #eba523;
+  background-image: url("./img/Pattern.svg");
+  background-size: 200%;
 }
 
 .card .heading {
@@ -270,8 +272,10 @@ header .nav-btn {
 }
 
 .policys {
+  display: flex;
+  justify-content: center;
   height: 50vh;
-  padding: 50px;
+  padding: 25px;
   background-color: #eeeeee;
 }
 
@@ -280,8 +284,43 @@ header .nav-btn {
   font-size: 4em;
 }
 
-.policys p {
-  font-size: 1em;
+.policy_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.policy_info p {
+  width: 50%;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .policys .heading {
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .policy_info p {
+    width: 90%;
+    padding: 20px;
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .policys .heading {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .policy_info p {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+  }
 }
 
 .contact {
@@ -291,6 +330,8 @@ header .nav-btn {
 
 footer {
   background-color: #eeeeee;
+  background-image: url('./img/Pattern.svg');
+  background-size: 25%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -298,5 +339,11 @@ footer {
 }
 
 .footer_logo {
-  width: 10%;
+  width: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer_logo {
+    width: 25%;
+  }
 }

@@ -80,8 +80,8 @@ function App() {
       </div>
 
       <div id='policys' className='policys'>
-        <p className='heading'>CANCELLATION POLICY</p>
-        <div className=''>
+        <div className='policy_info'>
+          <h1 className='heading'>CANCELLATION POLICY</h1>
           <p>
             Cancellations are accepted as we understand that things happen, but will require a minimum of 3 hours notice prior to cancellation.
           </p>
