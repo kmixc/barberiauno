@@ -26,11 +26,11 @@ function App() {
           <a className='link' href='#policys' onClick={showNavbar}>Policy</a>
           <a className='link' href='#contact' onClick={showNavbar}>Contact</a>
           <button className='nav-btn' onClick={showNavbar}>
-            <FontAwesomeIcon className='Xmark' icon={faXmark} size='4x' />
+            <FontAwesomeIcon className='Xmark' icon={faXmark} size='4x' color='#000' />
           </button>
         </nav>
         <button className='nav-btn open' onClick={showNavbar}>
-          <FontAwesomeIcon icon={faGripLines} size='3x' />
+          <FontAwesomeIcon icon={faGripLines} size='3x' color='#000' />
         </button>
         <div className='book'>
           <a className='book_link' href='https://barberiaunoinc.resurva.com/' target='book'>Book Now</a>

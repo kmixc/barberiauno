@@ -135,6 +135,14 @@ header .nav-btn {
   .logo {
     width: 70%;
   }
+
+  .scroll_nav {
+    justify-content: none;
+  }
+
+  .scroll_nav .link {
+    padding: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -275,7 +283,7 @@ header .nav-btn {
   display: flex;
   justify-content: center;
   height: 50vh;
-  padding: 25px;
+  padding: 30px 25px;
   background-color: #eeeeee;
 }
 
