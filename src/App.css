@@ -332,8 +332,70 @@ header .nav-btn {
 }
 
 .contact {
-  height: 100vh;
+  padding: 10%;
   background-color: #111111;
+}
+
+.contact h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 50%;
+}
+
+.contact_form p {
+  padding: 10px 0;
+  color: #eeeeee;
+}
+
+.contact_form .input {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.message {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.submit {
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  font-weight: bold;
+  background-color: #eba523;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact_form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact_form {
+    width: 90%;
+  }
 }
 
 footer {

@@ -95,8 +95,18 @@ function App() {
       </div>
 
       <div id="contact" className='contact'>
-
         <h1>Contact Us</h1>
+        <div className='form'>
+          <form className='contact_form' action="mailto:recipient@example.com" method="get" enctype="text/plain">
+            <p>Subject:</p>
+            <input className='subject input' type="text" name="subject" placeholder="Your Name" />
+            <p>Email:</p>
+            <input className='email input' type="email" name="email" placeholder="Your Email" />
+            <p>Message:</p>
+            <textarea className='message' name="body" rows="5" cols="30" placeholder="Your Message"></textarea>
+            <input className='submit' type="submit" value="Send" />
+          </form>
+        </div>
 
       </div>
 
