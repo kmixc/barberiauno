@@ -72,7 +72,7 @@ function App() {
             <p className='desc'>A beard cleanup using only clippers, no razor or shave included.</p>
           </div>
           <div className='card'>
-            <p className='heading'>Child/Senior Haircut <span className='uno_color'>40$:</span></p>
+            <p className='heading'>Child/Senior Haircut <span className='uno_color'>$40:</span></p>
             <p className='desc'>Any haircut for children under 10 and seniors over 65.</p>
           </div>
         </div>
