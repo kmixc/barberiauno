@@ -40,11 +40,11 @@ function App() {
       <div id='services' className='services'>
         <div className='service_cards'>
           <div className='card'>
-            <p className='heading'>Haircut <span className='uno_color'>45$:</span></p>
+            <p className='heading'>Haircut <span className='uno_color'>$45:</span></p>
             <p className='desc'>A haircut including fades, longer length cuts, or any general style.</p>
           </div>
           <div className='card'>
-            <p className='heading'>Full Beard Trim <span className='uno_color'>45$:</span></p>
+            <p className='heading'>Full Beard Trim <span className='uno_color'>$45:</span></p>
             <p className='desc'>A full beard trim service including a hot towel shave on the cheek and neck.</p>
           </div>
           <div className='card'>
@@ -97,7 +97,7 @@ function App() {
       <div id="contact" className='contact'>
         <h1>Contact Us</h1>
         <div className='form'>
-          <form className='contact_form' action="mailto:recipient@example.com" method="get" enctype="text/plain">
+          <form className='contact_form' action="mailto:dom@barberiauno.ca" method="get" enctype="text/plain">
             <p>Subject:</p>
             <input className='subject input' type="text" name="subject" placeholder="Your Name" />
             <p>Email:</p>
